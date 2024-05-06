@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/image/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-red-sm{
+    padding: 5px 10px;
+}
+
+.btn-lang{
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.60;
+    border-color: white;
+    color: white;
+}
+
+.btn-red{
+    padding: 10px 20px;
+    font-size: large;
+}
+
+.btn{
+    background-color: red;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.email{
+    padding: 15px;
+    padding-right: 130px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: white;
+    color:white;
+    background-color: black;
+    opacity: 0.60;
+}
+
+
+
+
+
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    max-width: 70vw;
+    margin: auto;
+    color: rgb(252, 250, 250);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 553px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
+
+.second{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.st{
+    position: relative;
+    z-index: 10;
+    width: 555px;
+    height: auto;
+}
+/* .st2{
+    position: absolute;
+    top: 40px;
+} */
+.line2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+}
+.head1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.head2{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+    /* flex-direction: row; */
+}
+.line3{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.head3{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+.head4{
+    font-size: 24px;
+    color: white;
+}
+
+.thirdimg img{
+    width: 555px;
+    
+    position: relative;
+    z-index: 10;
+}
+.thirdimg video{
+    position: absolute;
+    left: 70%;
+    /* bottom: 10px; */
+    width: 320px;
+}
+
+
+
+
+
+
+
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.line4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.head5{
+    color: white;
+    font-size: 43px;
+    font-weight: bolder;
+}
+.head6{
+    font-size: 23px;
+    color: white;
+}
+.fourthimg img{
+    width: 555px;
+}
+
+
+
+
+
+.separation{
+    background-color: rgb(59, 57, 57);
+    height: 7px;
+}
+
+
+
+.fifth{
+    margin: 50px 0;
+}
+
+.head7{
+    padding: 35px 0;
+    text-align: center ;
+    background-color: black;
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.box1{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box1> svg{
+    color: white;
+}
+.box2{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box2> svg{
+    color: white;
+}
+.box3{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box3> svg{
+    color: white;
+}
+.box4{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box4> svg{
+    color: white;
+}
+.box5{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box5> svg{
+    color: white;
+}
+.box6{
+    background-color: rgb(59, 57, 57);
+    display: flex;
+    padding: 30px;
+    font-size: 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px 200px;
+    color: white;
+}
+.box6> svg{
+    color: white;
+}
+
+.last{
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn1{
+    margin-top: 20px;
+}
+.le{
+    margin-top: 20px;
+}
+.last-button{
+    display: flex;
+    justify-content: center;
+    border-color: white;
+    align-items: center;
+    border-color: white;
+}
+
+
+
+footer{
+    margin-top: 60px;
+}
+
+footer>span{
+    
+    color: white;
+    margin: 40px 206px;
+    text-align: center;
+}
+.footer-item{
+    display: flex;
+    margin-top: 30px;
+    gap: 160px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+ul>li>a{
+    color: white;
+}
+
+
+
+.bl{
+    margin-top: 20px;
+    margin-left: 206px;
+    
+}
+
+.india{
+    margin-top: 20px;
+    margin-left: 206px;
+    color: white;
+}
+.sixth{
+    margin-bottom: 90px;
+}
+
+
+@media  screen and (max-width: 500px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    .second{
+        flex-wrap: wrap;
+    }
+    .third{
+        flex-wrap: wrap;
+    }
+    .four{
+        flex-wrap: wrap;
+    }
+}
